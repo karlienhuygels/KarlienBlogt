@@ -1,0 +1,239 @@
+body{
+  width 100%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.kader{
+  max-width: 70%;
+  margin: 2% auto;
+}
+
+h1{
+  font-family: 'Kristi', cursive;
+  font-size: 900%;
+}
+
+.blog h1{
+  font-size: 150%;
+  color: lightblue;
+  margin-bottom: 2%;
+}
+
+h2{
+  font-size: 600%;
+}
+
+h3{
+  text-align: center;
+}
+
+p{
+  font-family: 'Oswald';
+  font-weight: lighter;
+  line-height: 1.2;
+  font-size: 120%;
+  text-align: justify;
+  margin: 3% 0;
+}
+
+.social p{
+  color: lightblue;
+  font-weight: normal;
+  font-size: 120%;
+  text-align: center;
+  margin: 0;
+}
+
+span{
+  color: lightblue;
+}
+
+hr{
+  margin: 2% 0;
+}
+
+#tag{
+  color: black;
+  width: 100%;
+  background-color: lightblue;
+  padding: 1%;
+}
+
+#tag:hover{
+  color: white;
+ }
+
+.blog img{
+  width: 100%;
+}
+
+
+#hoofdafbeelding{
+  width: 100%;
+  margin: 5% 0;
+}
+
+#hoofdafbeelding:hover{
+  transform: scale(1);
+}
+
+.social img{
+  width: 28%;
+  display: block;
+  margin: 5% 8% 3% 0%;
+  float: left;
+}
+
+.social img:hover{
+  transform: scale(1.2);
+}
+
+#zij{
+  margin-right: 0;
+  background-color: yellow;
+}
+
+.navigatie a{
+  color: black;
+  text-decoration: none;
+  margin-right: 3%;
+  padding: 0.5%;
+}
+
+.kader a{
+  color: black;
+  text-decoration: none;
+}
+
+.navigatie a:hover{
+  background-color: lightblue;
+}
+
+.blog a{
+  color: lightblue;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.blog a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.social a{
+  color: black;
+  text-decoration: none;
+}
+
+.navigatie{
+  width: 100%;
+  margin: 2% 0;
+}
+
+.social{
+  width: 22%;
+  float: right;
+}
+
+.instagram{
+  margin: 0 0 10% 0;
+}
+
+.blog{
+  width: 75%;
+}
+
+.rechts{
+  width: 29%;
+  float:right;
+}
+
+
+.links{
+  width: 29%;
+}
+
+
+@media (max-width: 1900px){
+  h2{
+    font-size: 350%;
+  }
+}
+
+@media (max-width: 1700px){
+  h2{
+    font-size: 300%;
+  }
+
+  .rechts{
+    margin: 0 0 2% 0;
+  }
+}
+
+@media (max-width: 1500px){
+  h2{
+    font-size: 400%;
+  }
+
+  p{
+    margin: 2% 0;
+  }
+
+  .links{
+    float: none;
+    width: 100%;
+  }
+
+  .rechts{
+    float: none;
+    width: 100%
+  }
+
+  .blog img{
+    width: 100%;
+  }
+  #tag{
+    padding: 1%;
+  }
+}
+
+@media (max-width: 1000px){
+  .social hr{
+    width: 50%;
+    float: left;
+  }
+
+  .social{
+    float: none;
+    width: 100%;
+    margin: 0 0 5% 0;
+  }
+
+  .instagram{
+    float: left;
+    width: 47%;
+    margin: 0 0 2% 0;
+  }
+
+  .tumblr{
+    float: right;
+    width: 47%;
+  }
+  .blog{
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px){
+  h1{
+    font-size: 500%;
+  }
+  .kader{
+    max-width: 90%;
+  }
+  .social{
+    display: block;
+    margin: 0 0 5% 0;
+    clear: both;
+  }
+}
